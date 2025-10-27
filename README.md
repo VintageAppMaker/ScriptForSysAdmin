@@ -7,6 +7,21 @@
 ![](2.jpg)
 ![](3.jpg)
 
+## 프롬프트:
+아래의 이미지를 같은 폴더에서 제공하고 
+![](plan.png)
+
+codex를 아래와 같이 실행 후, 
+
+```bash
+codex -a on-failure --sandbox workspace-write
+```
+
+다음 프롬프트를 실행한다.  
+
+```bash
+"@plan.png의 파일을 참고하여 powershell 소스를 만들어줘"
+```
 
 ## 참고:
 1. coding은 1줄도 안한 순수 Vibe coding 결과
