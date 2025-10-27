@@ -2,12 +2,12 @@
 > Windows를 최초로 설치 및 설정 하거나 하드웨어 사양을 채크해야 할 때, 오피스 프로그램 내에서 키워드를 검색이 필요할 때 사용할 수 있는 powershell script. 다수의 컴퓨터를 세팅해야 할 목적으로 작성한 스크립트임. 
 
 
-## 화면:
+## 1. 실행화면:
 ![](1.jpg)
 ![](2.jpg)
 ![](3.jpg)
 
-## 프롬프트:
+## 2. 작성 프롬프트:
 아래의 이미지를 같은 폴더에서 제공하고 
 ![](plan.png)
 
@@ -23,7 +23,7 @@ codex -a on-failure --sandbox workspace-write
 "@plan.png의 파일을 참고하여 powershell 소스를 만들어줘"
 ```
 
-## 참고:
+## 3. 참고:
 1. coding은 1줄도 안한 순수 Vibe coding 결과
 2. 코드 실행을 위해 빌드 및 테스트 작업 만 진행
 3. Google Apps Script는 설치정보를 갱신하기 위한 Lite 서버로 활용(없어도 무방함)
